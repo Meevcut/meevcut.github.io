@@ -3,88 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elden Ring Tam Rehber</title>
-    <style>
-        body {
-            font-family: 'Trajan Pro 3', serif;
-            background-color: #0d0d0d;
-            color: #d1c19f;
-            line-height: 1.6;
-            margin: 0;
-            padding: 40px;
-            text-rendering: optimizeLegibility;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-
-        .main-container {
-            max-width: 800px;
-            width: 100%;
-            background-color: #1a1a1a;
-            padding: 50px;
-            border-radius: 10px;
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
-            border: 1px solid #333;
-            text-align: center;
-        }
-
-        h1 {
-            color: #e5b05c;
-            font-size: 3.5em;
-            letter-spacing: 2px;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 1.2em;
-            margin-bottom: 40px;
-            color: #c0b090;
-        }
-
-        .chapter-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        .chapter-list li a {
-            display: block;
-            background-color: #2b220a;
-            color: #fce8bc;
-            text-decoration: none;
-            font-size: 1.5em;
-            padding: 20px;
-            border-radius: 8px;
-            border: 1px solid #e5b05c;
-            transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-        }
-
-        .chapter-list li a:hover {
-            background-color: #3d2c00;
-            transform: translateY(-5px) scale(1.02);
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
-        }
-    </style>
+    <title>Elden Ring Rehberi: Limgrave</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="main-container">
-    <h1>Elden Ring Rehberi</h1>
-    <p>Tarnished, The Lands Between'deki yolculuğuna başlamak için bir bölge seç.</p>
-    <ul class="chapter-list">
-        <li><a href="limgrave.html">1. Limgrave</a></li>
-        <li><a href="liurnia.html">2. Liurnia of the Lakes</a></li>
-        <li><a href="caleid.html">3. Caelid</a></li>
-        <li><a href="altus_plateau.html">4. Altus Plateau</a></li>
-        <li><a href="mountaintops.html">5. Mountaintops of the Giants</a></li>
-        </ul>
-</div>
+<nav class="navigation-bar">
+    <a href="anasayfa.html" class="nav-button">Ana Sayfa</a>
+    
+    <div class="dropdown">
+        <a id="dropdownBtn" class="dropdown-toggle">Bölgeler ▼</a>
+        <div id="dropdownMenu" class="dropdown-menu">
+            <a href="limgrave.html">1. Limgrave</a>
+            <a href="liurnia.html">2. Liurnia of the Lakes</a>
+            <a href="caleid.html">3. Caelid</a>
+            <a href="altus_plateau.html">4. Altus Plateau</a>
+            <a href="mountaintops.html">5. Mountaintops of the Giants</a>
+        </div>
+    </div>
+</nav>
 
+<main class="container">
+    <div id="rehber-bolumu" class="section">
+        <h1>Elden Ring Başlangıç Bölgesi — Limgrave: Tamamlama Rehberi</h1>
+        <p>Bu rehber, Elden Ring'in başlangıç bölgesi Limgrave'deki tüm önemli adımları eksiksiz ve kronolojik olarak sunar. Adım adım takip ederek hiçbir detayı kaçırmayacaksınız.</p>
+        
+        <div class="accordion-item">
+            <h2>1. Prolog ve İlk Karşılama</h2>
+            <div class="accordion-content">
+                <p>Oyuna uyandıktan sonra <strong>First Step Site of Grace</strong> civarında gezinirsin.</p>
+                <ul>
+                    <li><strong>White-Faced Varré</strong> (Varré): The First Step çevresinde ilk karşılaştığın NPC.</li>
+                    <li>İlk konuşmanda “maidenless” (refakatsiz) olduğun için seni aşağılar.</li>
+                    <li>Daha sonra (Godrick’i yendikten sonra) Roundtable Hold ve Rose Church’te tekrar bulacaksın.</li>
+                    <li>Şimdilik sadece konuş, görevi ilerlemiyor.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2>2. Church of Elleh — İlk Satıcı ve Blaidd’in Başlangıcı</h2>
+            <div class="accordion-content">
+                <p>Church of Elleh, First Step’in biraz kuzeyinde.</p>
+                <ul>
+                    <li><strong>Merchant Kalé</strong>: Buradaki satıcıdan Crafting Kit ve meşale al (oyunda hayatta kalmak için çok faydalı).</li>
+                    <li>Yakında Mistwood civarında kurt uluması duyduğunda Church of Elleh’ye dön, Kalé’ye o sesi sor.</li>
+                    <li>Kalé sana Finger Snap (parmak şaklatma) jestini verir.</li>
+                    <li>Bu jest, Mistwood’daki kuleden Blaidd’i çağırmak için gerekli.</li>
+                </ul>
+                <div class="warning">
+                    <strong>Önemli:</strong> Kalé’yi öldürme, yoksa Finger Snap’i alamazsın ve Blaidd’in görevi başlayamaz.
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <h2>3. Waypoint Ruins — Sorceress Sellen’in İlk Görünüşü</h2>
+            <div class="accordion-content">
+                <p>East Limgrave, Agheel Gölü’nün doğu tarafında.</p>
+                <ul>
+                    <li>Buradaki mahzende (cellar) bir miniboss var, onu yenmen gerekiyor.</li>
+                    <li>Boss’u yendikten sonra arka odaya geçip <strong>Sorceress Sellen</strong>’i buluyorsun. Kafesi kırılmış ama orada.</li>
+                    <li>Sellen ile konuşup “study under you” seçeneğini kabul et.</li>
+                    <li>Bu, Sellen’in görev zincirinin başlangıcıdır.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <h2>4. Murkwater Cave — Patches ile İlk Karşılaşma</h2>
+            <div class="accordion-content">
+                <p>Murkwater Cave, Agheel Gölü’nün kuzeybatısında.</p>
+                <ul>
+                    <li>Burada <strong>Patches</strong> ile bir miniboss dövüşü yaparsın.</li>
+                    <li>Patches’i yarı yenersen merhamet gösterip serbest bırakabilirsin.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <h2>5. Mistwood — Blaidd’in Çağrılması</h2>
+            <div class="accordion-content">
+                <p>Mistwood bölgesinde (Fort Haight kuzeyi), uzaklardan kurt uluması duyarsın.</p>
+                <ul>
+                    <li>Church of Elleh’deki Merchant Kalé’ye gidip uluma hakkında konuş. Kalé sana Finger Snap jestini verir.</li>
+                    <li>Mistwood’da ulumanın geldiği yerde jesti kullanırsan <strong>Blaidd</strong> çıkar ve konuşur.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div id="npc-bolumu" class="section">
+        <h2>NPC'ler</h2>
+        <p>Limgrave bölgesinde karşılaşabileceğin tüm önemli NPC'ler ve görevleri.</p>
+        <div class="character-grid">
+            <div class="character-card">
+                <img src="assets/npcs/varre.jpg" alt="White-Faced Varré">
+                <h3>White-Faced Varré</h3>
+            </div>
+            <div class="character-card">
+                <img src="assets/npcs/kale.jpg" alt="Merchant Kale">
+                <h3>Merchant Kalé</h3>
+            </div>
+            <div class="character-card">
+                <img src="assets/npcs/renna.jpg" alt="Renna">
+                <h3>Renna (Ranni'nin Kılığı)</h3>
+            </div>
+            <div class="character-card">
+                <img src="assets/npcs/sellen.jpg" alt="Sorceress Sellen">
+                <h3>Sorceress Sellen</h3>
+            </div>
+            <div class="character-card">
+                <img src="assets/npcs/blaidd.jpg" alt="Blaidd the Half-Wolf">
+                <h3>Blaidd the Half-Wolf</h3>
+            </div>
+            <div class="character-card">
+                <img src="assets/npcs/yura.jpg" alt="Bloody Finger Hunter Yura">
+                <h3>Bloody Finger Hunter Yura</h3>
+            </div>
+            <div class="character-card">
+                <img src="assets/npcs/boc.jpg" alt="Boc the Seamster">
+                <h3>Boc the Seamster</h3>
+            </div>
+            <div class="character-card">
+                <img src="assets/npcs/kenneth_haight.jpg" alt="Kenneth Haight">
+                <h3>Kenneth Haight</h3>
+            </div>
+            <div class="character-card">
+                <img src="assets/npcs/alexander.jpg" alt="Iron Fist Alexander">
+                <h3>Iron Fist Alexander</h3>
+            </div>
+            <div class="character-card">
+                <img src="assets/npcs/d.jpg" alt="D, Hunter of the Dead">
+                <h3>D, Hunter of the Dead</h3>
+            </div>
+            <div class="character-card">
+                <img src="assets/npcs/roderika.jpg" alt="Roderika">
+                <h3>Roderika</h3>
+            </div>
+            <div class="character-card">
+                <img src="assets/npcs/gostoc.jpg" alt="Gatekeeper Gostoc">
+                <h3>Gatekeeper Gostoc</h3>
+            </div>
+            <div class="character-card">
+                <img src="assets/npcs/nepheli_loux.jpg" alt="Nepheli Loux">
+                <h3>Nepheli Loux</h3>
+            </div>
+            <div class="character-card">
+                <img src="assets/npcs/nomadic_merchant.jpg" alt="Nomadic Merchants">
+                <h3>Nomadic Merchants</h3>
+            </div>
+            <div class="character-card">
+                <img src="assets/npcs/patches.jpg" alt="Patches">
+                <h3>Patches</h3>
+            </div>
+            <div class="character-card">
+                <img src="assets/npcs/bernhal.jpg" alt="Knight Bernahl">
+                <h3>Knight Bernahl</h3>
+            </div>
+        </div>
+    </div>
+    
+    <div id="boss-bolumu" class="section">
+        <h2>Boss'lar ve Miniboss'lar</h2>
+        <p>Limgrave'de seni bekleyen tüm boss'lar ve karşılaşma yerleri.</p>
+        </div>
+</main>
+
+<footer class="page-footer">
+    <p>&copy; 2025 Elden Ring Rehberi. Tüm hakları saklıdır. FromSoftware'e sevgilerle.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
