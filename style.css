@@ -317,8 +317,9 @@ strong {
     color: #666;
     text-align: center;
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 0; /* Bu değeri 0 olarak ayarlayarak boşluğu kaldırdık */
     border-top: 2px solid #e5b05c;
+    padding-top: 20px; /* İçerikle arasında hafif bir boşluk bıraktık */
 }
 .page-footer p {
     margin: 0;
